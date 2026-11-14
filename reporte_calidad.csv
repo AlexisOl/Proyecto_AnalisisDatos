@@ -1,0 +1,19 @@
+nombre_regla,tabla_evaluada,registros_evaluados,registros_invalidos,porcentaje_error,fecha_ejecucion
+Duplicados PK - Geolocation (ANTES),geolocalizacion_raw,1000163,981148,98.0988,2026-11-13 23:07:39.282932
+Duplicados PK - Geolocation (DESPUES),geolocalizacion_clean,19015,0,0.0,2026-11-13 23:07:39.282932
+Duplicados PK - Reseñas (ANTES),resenas_raw,99224,814,0.8204,2026-11-13 23:07:39.282932
+Duplicados PK - Reseñas (DESPUES),resenas_clean,98410,0,0.0,2026-11-13 23:07:39.282932
+Nulos críticos - Productos sin categoría (ANTES),productos_raw,32951,610,1.8512,2026-11-13 23:07:39.282932
+Nulos críticos - Productos sin categoría (DESPUES),productos_clean,32951,0,0.0,2026-11-13 23:07:39.282932
+Completitud - Pedidos sin fecha entrega (ANTES),pedidos_raw,99441,2965,2.9817,2026-11-13 23:07:39.282932
+Completitud - Pedidos sin fecha entrega (DESPUES),pedidos_clean,99441,2988,3.0048,2026-11-13 23:07:39.282932
+Fechas inconsistentes - Entrega < Compra (ANTES),pedidos_raw,99441,0,0.0,2026-11-13 23:07:39.282932
+Fechas inconsistentes - Entrega < Compra (DESPUES - Conservados/Flag),pedidos_clean,99441,189,0.1901,2026-11-13 23:07:39.282932
+Precios inválidos <= 0 o flete < 0 (ANTES),items_raw,112650,0,0.0,2026-11-13 23:07:39.282932
+Precios inválidos <= 0 o flete < 0 (DESPUES),items_clean,112650,0,0.0,2026-11-13 23:07:39.282932
+Pagos inválidos <= 0 (ANTES),pagos_raw,103886,9,0.0087,2026-11-13 23:07:39.282932
+Pagos inválidos <= 0 (DESPUES - Cuarentena/Flag),pagos_clean,103886,11,0.0106,2026-11-13 23:07:39.282932
+Huérfanos - Items sin Pedido padre (ANTES),items_raw,112650,0,0.0,2026-11-13 23:07:39.282932
+Huérfanos - Items sin Pedido padre (DESPUES),items_clean,112650,0,0.0,2026-11-13 23:07:39.282932
+Huérfanos - Pedidos sin Items asociados (ANTES),pedidos_raw,99441,775,0.7794,2026-11-13 23:07:39.282932
+Huérfanos - Pedidos sin Items asociados (DESPUES - Conservados/Flag),pedidos_clean,99441,775,0.7794,2026-11-13 23:07:39.282932
